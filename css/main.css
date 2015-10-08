@@ -75,7 +75,7 @@ header img {
 .insta img {
   width: 25%;
   max-width: 50px;
-  padding: 0;
+  padding-left: 5em;
   margin: 0;
   z-index: 2;
   float: left;
@@ -85,30 +85,12 @@ header img {
 .beh img {
   width: 25%;
   max-width: 50px;
-  padding: 0;
+  padding-left: 2em;
   margin: 0;
   z-index: 2;
   float: left;
   position: relative;
 }
-
-
-
-
-
-    <div class="bartwo">
-      <img src="img/borderrose.jpg" alt="">
-    </div>
-
-    <div class="insta">
-      <img src="img/insta.png" alt="">
-    </div>
-
-    <div class="beh">
-      <img src="img/behance.png" alt="">
-    </div>
-
-
 
 
 
