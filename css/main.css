@@ -23,12 +23,12 @@ body {
 header {
   padding: 0;
   margin: 0;
+  clear: both;
 }
 
 header h1 {
 width: 50%;
 float: left;
-z-index: 2;
 padding: 1em 0 0 1em;
 margin: 0;
 }
@@ -39,26 +39,31 @@ header img {
   padding-top: .5em;
   padding-left: 5em;
   float: left;
-  z-index: 1;
 }
 
 .bar {
-  padding: 0;
-  margin: 0;
-  z-index: 3;
-
+  width: 100%;
+  padding: 2em;
+  margin: 2em;
+  background-color: #b3897b;
+  height: 30px;
+  clear: both;
 }
 
-.bar img {
+.bar p {
   width: 100%;
-  padding: 0;
+  padding: 2em;
   margin: 0;
+  background-color: #b3897b;
+  height: 30px;
 }
 
 /*header end---------*/
 
-.aboutme {
+.aboutme p {
   padding: 0 1em 0 1em;
+  overflow: hidden;
+  background-color: yellow;
 }
 
 /*footer-------*/
