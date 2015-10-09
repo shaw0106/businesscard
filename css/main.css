@@ -315,7 +315,7 @@ header {
   display: none;
 }
 
-body {
+.bar, .bartwo, .insta, .beh, .aboutme {
   display: none;
 }
 
@@ -323,6 +323,7 @@ body {
   background-color: white;
   border-width: medium;
   border-style: solid;
+  display: block;
 }
 
 .print h1 {
@@ -341,11 +342,4 @@ body {
 }
 
 }
-
-
-
-
-/*main a::after {
-  content: " (" attr(href)")";
-  color: lightgrey;
-}*/
+336 x 192
