@@ -24,35 +24,47 @@ header {
   padding: 0;
   margin: 0;
   clear: both;
+  position: relative;
 }
 
 header h1 {
 width: 50%;
-float: left;
-padding: 1em 0 0 1em;
+padding: 0;
 margin: 0;
+position: absolute;
+left: -.70em;
+top: 0;
 }
 
 header img {
   width: 100%;
-  max-width: 200px;
+  max-width: 190px;
   padding-top: .5em;
-  padding-left: 5em;
+  padding-left: 1em;
   float: left;
 }
 
 .bar {
   width: 100%;
-  padding: 2em;
-  margin: 2em;
-  background-color: #b3897b;
+  padding: 0;
+  margin: 0;
   height: 30px;
   clear: both;
 }
 
 .bar p {
   width: 100%;
-  padding: 2em;
+  padding: 1em 0;
+  margin: 0;
+  background-color: #b3897b;
+  height: 30px;
+  float: left;
+
+}
+
+.bartwo {
+  width: 100%;
+  padding: 1em 0;
   margin: 0;
   background-color: #b3897b;
   height: 30px;
@@ -60,22 +72,19 @@ header img {
 
 /*header end---------*/
 
+.aboutme {
+  margin-top: 1em;
+  clear: left;
+  padding: .5em 1em;
+}
+
 .aboutme p {
-  padding: 0 1em 0 1em;
+  padding: 0;
   overflow: hidden;
-  background-color: yellow;
 }
 
 /*footer-------*/
 
-.bartwo img {
-  width: 100%;
-  padding-bottom: 1em;
-  margin: 0;
-  z-index: 1;
-  float: left;
-  position: absolute;
-}
 
 .insta img {
   width: 25%;
@@ -83,20 +92,18 @@ header img {
   padding-left: 5em;
   padding-top: .45em;
   margin: 0;
-  z-index: 2;
   float: left;
-  position: relative;
+  bottom: 3.75em;
 }
 
 .beh img {
   width: 25%;
   max-width: 50px;
-  padding-left: 2em;
-  padding-top: .45em;
+  padding-left: 0em;
+  padding-top: 0em;
   margin: 0;
-  z-index: 2;
   float: left;
-  position: relative;
+  bottom: 3.75em;
 }
 
 .print {
@@ -350,4 +357,4 @@ header {
 }
 
 }
-336 x 192
+/*336 x 192*/
