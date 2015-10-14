@@ -28,7 +28,6 @@ header {
 }
 
 header h1 {
-width: 50%;
 padding: 0;
 margin: 0;
 position: absolute;
@@ -37,11 +36,12 @@ top: 0;
 }
 
 header img {
-  width: 100%;
-  max-width: 190px;
+  width: 50%;
+  max-height: 300px;
   padding-top: .5em;
   padding-left: 1em;
   float: left;
+  position: relative;
 }
 
 .bar {
@@ -121,19 +121,18 @@ header img {
   header h1 {
   width: 50%;
   float: left;
-  z-index: 2;
-  padding: 1em 0 0 1em;
+  padding: 1em 0 0 1.3em;
   margin: 0;
-  font-size: 2.5em;
+  font-size: 1.75em;
+  z-index: 3;
   }
 
   header img {
     width: 100%;
-    max-width: 400px;
+    max-width: 250px;
     padding-top: .5em;
     padding-left: 5em;
     float: left;
-    z-index: 1;
   }
 
   .insta img {
